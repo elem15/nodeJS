@@ -1,0 +1,22 @@
+{
+  "name": "node-test",
+  "version": "1.0.0",
+  "description": "learn node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Dvorkin Mikhail <elem15@yandex.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
